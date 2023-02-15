@@ -1,0 +1,40 @@
+EX_glc(e)	0.000000	1000.0
+EX_mnl(e)	-1.50000	1000.0
+EX_ala_L(e)	-0.50000	0.2452
+EX_arg_L(e)	-0.50000	1000.0
+EX_asn_L(e)	-0.50000	1000.0
+EX_asp_L(e)	-0.05542	1000.0
+EX_cys_L(e)	-0.50000	1000.0
+EX_glu_L(e)	-0.11190	1000.0
+EX_gln_L(e)	-0.50000	1000.0
+EX_gly(e)	-0.50000	1000.0
+EX_his_L(e)	-0.01175	1000.0
+EX_ile_L(e)	-0.01189	1000.0
+EX_leu_L(e)	-0.03660	1000.0
+EX_lys_L(e)	-0.01764	1000.0
+EX_met_L(e)	-0.01229	1000.0
+EX_phe_L(e)	-0.01720	1000.0
+EX_pro_L(e)	-0.02226	1000.0
+EX_ser_L(e)	-0.03730	1000.0
+EX_thr_L(e)	-0.00741	1000.0
+EX_trp_L(e)	-0.50000	0.0
+EX_tyr_L(e)	-0.00814	1000.0
+EX_val_L(e)	-0.01080	1000.0
+#
+# Biomass
+# this value is from Lule et al. 2013 (suppl. mmc2) for TNF
+Biomass_SLI	0.000000	0.13
+#Biomass_SLI	0.000000	0.001400
+#
+# Activate plasmid
+#
+PLASMID_iJ486	0	1000
+# limit plasmid production to 100 copies / cell
+#PLASMID_iJ486	0	1.976e-6
+#
+AML	0	1000
+SEC_AML	1.58e-6	1.63e-5
+EX_aml(e)	0.0	1000.0
+#
+#MRNA_AML_HYDROLYSIS	0	1000.0
+#MRNA_AML_PHOSPHOLYSIS	0	1000.0

@@ -1,0 +1,35 @@
+!=============================================================================
+!
+! Syntax Highlighting Patterns for R
+! by Ernesto Jardim, ernesto@ipimar.pt
+! version: 1.0
+!
+! Configuring NEdit to use a new pattern set: 
+! 
+! * Close your NEdit sessions 
+! * Start an NEdit session using the import command line option with the pattern you downloaded: 
+! 
+!   # nedit -import R-5.1.pats
+! 
+! * Go into the recognition patterns dialog (Preferences>Default Settings>Syntax Highlighting>Recognition Patterns...) and verify that the patterns are imported 
+! * Use Preferences>Save Defaults... to store the modifications. 
+! 
+! * This version has been verified with the following versions on NEdit
+!  - 5.1
+!
+!=============================================================================
+
+nedit.highlightPatterns: \n\
+R:1:0{\n\
+Note:"#!":"$"::Note::\n\
+Comment:"#":"$"::TextComment::\n\
+Keyword:",|<(return|if|then|else|in|switch|while|for|function|do|done)>":::Keyword::D\n\
+Loop and Equation:"\\[|\\]|\\(|\\)|\\{|\\}|\\<-|,":::Loop and Equation::\n\
+Operators:"!|~|:|\\^|\\*|%|\\<|\\>|==|\\>=|\\<=|&|\\$|-|=|\\+|""|/":::Operators::\n\
+}
+nedit.languageModes: 	R:.q .r .R::::::
+nedit.styles: Note:darkRed:Italic\n\
+TextComment:darkBlue:Italic\n\
+Loop and Equation:darkRed:Bold\n\
+Operators:darkGreen:Bold\n\
+

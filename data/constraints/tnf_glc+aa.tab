@@ -1,0 +1,28 @@
+EX_glc(e)	-1.30500	1000.0
+#EX_mnl(e)	-1.50000	1000.0
+EX_ala_L(e)	-1000.00	0.2452
+EX_asp_L(e)	-0.05542	1000
+EX_glu_L(e)	-0.11190	1000.0
+EX_his_L(e)	-0.01175	1000.0
+EX_ile_L(e)	-0.01189	1000.0
+EX_leu_L(e)	-0.03660	1000.0
+EX_lys_L(e)	-0.01764	1000.0
+EX_met_L(e)	-0.01229	1000.0
+EX_phe_L(e)	-0.01720	1000.0
+EX_pro_L(e)	-0.02226	1000.0
+EX_ser_L(e)	-0.03730	1000.0
+EX_thr_L(e)	-0.00741	1000.0
+EX_tyr_L(e)	-0.00814	1000.0
+EX_val_L(e)	-0.01080	1000.0
+Biomass_SLI	0.000000	0.1933001894
+TNF	0	1000
+SEC_TNF	0.610e-5	6.1e-5
+EX_tnf(e)	0.0	1000.0
+#EX_aml(e)	0.0	0.0
+#EX_dag(e)	0.0	0.0
+
+# Activate plasmid
+#
+PLASMID_iJ486	0	1000
+# limit plasmid production to 100 copies / cell
+#PLASMID_iJ486	0	1.976e-6

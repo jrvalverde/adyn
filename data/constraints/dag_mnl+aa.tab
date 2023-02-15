@@ -1,0 +1,52 @@
+#5.1 but with the upper bound free (0.0)
+#LB unrestrained
+EX_glc(e)	0.0	0.0
+EX_mnl(e)	-10.370	-10.3700000
+EX_nh4(e)	-3.5	1000
+#
+EX_ala_L(e)	-1000.00	0.179
+EX_arg_L(e)	-1000.00	0.0
+EX_asn_L(e)	-1000.00	0.0
+EX_asp_L(e)	-1000.00	0.0
+EX_cys_L(e)	-1000.00	0.0
+EX_glu_L(e)	-1000.00	0.0000
+EX_gln_L(e)	-1000.00	0.0
+EX_gly(e)	-1000.00	0.0
+EX_his_L(e)	-1000.00	0.0
+EX_ile_L(e)	-1000.00	0.0
+EX_leu_L(e)	-1000.00	0.0
+EX_lys_L(e)	-1000.00	0.0
+EX_met_L(e)	-1000.00	0.0
+EX_phe_L(e)	-1000.00	0.0
+EX_pro_L(e)	-1000.00	0.0
+EX_ser_L(e)	-1000.00	0.0
+EX_thr_L(e)	-1000.00	0.0
+EX_trp_L(e)	-1000.00	0.0
+EX_tyr_L(e)	-1000.00	0.00000
+EX_val_L(e)	-1000.00	0.0000
+#
+EX_pyr(e)	-1000.00	0.0
+EX_lac_L(e)	-1000.00	0.0
+EX_akg(e)	-1000.00	0.0
+EX_succ(e)	-1000.00	0.0
+#
+# Force Biomass
+# aml 16h
+#Biomass_SLI	0.065	0.135
+# aml 24h
+#Biomass_SLI	0.135	0.135
+# agarase
+Biomass_SLI	0.0	0.19
+
+# for agarase
+DAG	0	1000.0
+MRNA_DAG_HYDROLYSIS	0	1000.0
+MRNA_DAG_PHOSPHOLYSIS	0	1000.0
+SEC_DAG	0.0006552	1000
+EX_dag(e)	0.0	1000.0
+
+# Activate plasmid
+#
+PLASMID_iJ486	0	1000
+# limit plasmid production to 100 copies / cell
+#PLASMID_iJ486	0	1.976e-6
